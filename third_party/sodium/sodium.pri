@@ -7,7 +7,7 @@ else:unix: LIBS += -L$$PWD/ -lsodium
 
 LIBS += -lpthread
 
-INCLUDEPATH += $$PWD/ "I:/dev/projects/third_party/boost"
+INCLUDEPATH += $$PWD/ $$PWD/../boost/
 #DEPENDPATH += $$PWD/
 
 #win32-g++:CONFIG(release, debug|release): PRE_TARGETDEPS += $$PWD/release/libsodium.a
